@@ -56,10 +56,10 @@
             <div class="navigation">
                 <div class="collapse navbar-collapse" id="buildpress-navbar-collapse">
                     <ul id="menu-main-menu" class="navigation--main">
-                        <li><a href="">Página Inicial</a></li>
-                        <li><a href="">A Empresa</a></li>
-                        <li><a href="">Produtos</a></li>
-                        <li><a href="">Contato</a></li>
+                        <li><a href="{{ route('index') }}">Página Inicial</a></li>
+                        <li><a href="{{ route('about') }}">A Empresa</a></li>
+                        <li><a href="{{ route('products') }}">Produtos</a></li>
+                        <li><a href="{{ route('contact') }}">Contato</a></li>
                     </ul>
                 </div>
             </div>
